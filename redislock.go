@@ -21,6 +21,7 @@ var (
 	WithTimeoutFactor  = redsync.WithTimeoutFactor
 	WithTries          = redsync.WithTries
 	WithValue          = redsync.WithValue
+	WithAutoExtend     = redsync.WithAutoExtend
 
 	ErrFailedToConnectToRedis = errors.New("gocron: failed to connect to redis")
 	ErrFailedToObtainLock     = errors.New("gocron: failed to obtain lock")
